@@ -1,0 +1,213 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  outline: none;
+  border: none;
+}
+
+html {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+strong {
+  color: #2a2;
+}
+
+/* =========== Header ============ */
+.socialIconContainer {
+  width: 100%;
+  margin-top: 30px;
+  background-color: #f8f8f8;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 7px #22aa2277;
+}
+
+.socialIconContainer a {
+  color: #2a2;
+  font-size: 0.8rem;
+  transition: 0.3s;
+}
+
+.socialIcon {
+  width: 15px;
+  background-color: #2a2;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+.simpleHover:hover {
+  opacity: 0.5;
+}
+
+/* =========== Landing Section ============ */
+.LandingSectionContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.LandingSectionContainer img {
+  width: 300px;
+  margin: 0 0 20px;
+  border-radius: 50%;
+  border: 5px solid #2a2;
+}
+
+.LandingSectionContainer p {
+  font-size: 0.9rem;
+}
+
+/* =========== Project Section ============ */
+.projectsContainer h3 {
+  margin-bottom: 10px;
+}
+.projectsContainer > div {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.projectsContainer > div > div {
+  background-color: #e9e9e9;
+  border-radius: 10px;
+  margin: 10px;
+  flex: 1 1 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  overflow: hidden;
+  box-shadow: 2px 2px 7px #22aa2277;
+}
+
+.projectsContainer > div > div > div {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 10px;
+  padding: 20px;
+}
+
+.projectsContainer > div > div img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.projectsContainer a {
+  color: #fff;
+}
+
+.projectsContainer > div > div p {
+  color: #323232;
+  font-size: 0.8rem;
+  line-height: 150%;
+}
+
+.projectsContainer > div > div button {
+  background-color: #2a2;
+  border-radius: 20px;
+  padding: 5px 10px;
+  margin-left: auto;
+  transition: 0.3s;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+/* =========== Contact Me Section ============ */
+
+.contactMeContainer {
+  width: 100%;
+  margin: auto;
+  margin-bottom: 100px;
+}
+.contactMeContainer h3 {
+  margin-bottom: 30px;
+}
+
+.contactMeContainer form {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.contactMeContainer form > div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 10px;
+}
+
+.contactMeContainer form > div input,
+.contactMeContainer form > div textarea {
+  width: 100%;
+  background-color: #e6e6e6;
+  padding: 10px 10px;
+  border-radius: 5px;
+}
+.contactMeContainer form > div textarea {
+  height: 200px;
+}
+
+.contactMeContainer form > div button {
+  width: 100%;
+  background-color: #2a2;
+  color: #fff;
+  transition: 0.3s;
+  margin: 10px;
+  padding: 10px 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contactMeContainer > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.contactMeContainer > .contactMeSocial {
+  margin: 30px 0;
+}
+.contactMeContainer > .contactMeSocial > div {
+  flex: 1 1 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #53aa21;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.contactMeContainer > div img {
+  width: 20px;
+  margin-right: 10px;
+}
+
+.contactMeContainer > div a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
